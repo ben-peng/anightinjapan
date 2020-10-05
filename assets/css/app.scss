@@ -85,6 +85,7 @@ div.circle{
     height: 500px;
     background-color: $red;
     border-radius: 50%;
+    z-index: -1;
 }
 
 div.post{
