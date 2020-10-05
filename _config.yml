@@ -1,6 +1,6 @@
 ---
 title: A Night in Japan
-timezone: UTC
+timezone: Australia/Melbourne
 collections:
   posts:
     title: Posts
@@ -21,8 +21,8 @@ defaults:
     layout: post
 email: benjamin.w.peng@gmail.com
 description: A blog about Japan
-baseurl: ''
-url: ''
+baseurl: 
+url: 
 twitter_username: benpenguin
 github_username: ben-peng
 theme: minima
