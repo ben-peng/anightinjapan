@@ -1,0 +1,30 @@
+---
+title: A Night in Japan
+timezone: Australia/Melbourne
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+email: benjamin.w.peng@gmail.com
+description: A blog about Japan
+baseurl: 
+url: 
+twitter_username: benpenguin
+github_username: ben-peng
+theme: minima
+plugins:
+- jekyll-feed
