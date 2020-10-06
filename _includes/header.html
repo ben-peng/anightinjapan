@@ -4,8 +4,18 @@
     </a> 
 
     <nav>
-     <a href="/" {% if page.url == "/" %} class="selected" {% endif %}>Home</a> 
-     <a href="/about/" {% if page.url == "/about/" %} class="selected" {% endif %}>About</a> 
+        <!-- Add home as a link manually to reorder from last -->
+        <a href="/" {% if page.url == "/" %} class="selected" {% endif %}>Home</a>  
+
+        <!-- Adding a loop for any pages we have so that it appears in the nav bar automatically, skipping the Home page -->
+        {% for pages in site.pages %}
+            {% if pages.type == "homepage" %}   
+                {% break %}
+            {% endif %}
+            {% if pages.sidebar == "menu" %}
+            <a href="{{ pages.url }}" {% if page.url == pages.url %} class="selected" {% endif %}> {{ pages.title }} </a> 
+            {% endif %}
+        {% endfor %}
     </nav>
     
 </header>

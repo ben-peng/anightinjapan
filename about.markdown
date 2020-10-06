@@ -2,6 +2,7 @@
 title: About
 permalink: "/about/"
 layout: default
+sidebar: menu
 ---
 
 ![about.jpg](/uploads/about.jpg)

@@ -1,6 +1,9 @@
 ---
 title: Contact
 date: 2020-10-05 23:04:00 +11:00
+sidebar: menu
 ---
 
-If you want to work with me, email me at [benjamin.w.peng@gmail.com](mailto:benjamin.w.peng@gmail.com)
+## Get in touch
+
+If you want to work with me, [email me](mailto:benjamin.w.peng@gmail.com)
